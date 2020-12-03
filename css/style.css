@@ -19,7 +19,7 @@
 
   --icon-size: 1.2rem;
 
-  --animation-speed: 4s;
+  --animation-speed: 5s;
   --animation-icon-speed: 2s;
 
   /* colors */
@@ -40,15 +40,12 @@
 .container {
   width: var(--container-width);
   height: var(--container-height);
-
   background-color: var(--background-color);
-
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   display: grid;
   grid-template-rows: 4fr 4fr 2fr;
   overflow: hidden;
@@ -61,8 +58,8 @@
   color: var(--color-blue);
 
   transform: translate(0%, -100%);
-  animation: topBottom var(--animation-speed) infinite ease-in;
-  animation-delay: 2s;
+  animation: topBottom 7.5s infinite ease-in;
+  animation-delay: 1s;
 }
 
 .box1 .box-1-int {
@@ -78,9 +75,9 @@
   font-size: var(--icon-size);
   transform-origin: center center;
 
-  animation: rotate var(--animation-icon-speed) infinite ease-in;
-  opacity: 0;
-  animation-delay: 5s;
+  /* animation: rotate var(--animation-icon-speed) infinite ease-in; */
+  opacity: 1;
+  /* animation-delay: 5s; */
 }
 
 .box2 {
@@ -93,7 +90,7 @@
   justify-content: center;
 
   transform: translate(0%, 160%);
-  animation: bottomTop var(--animation-speed) infinite ease-in-out;
+  animation: bottomTop 5s infinite ease-in-out;
   animation-delay: 3.5s;
 }
 
@@ -125,7 +122,7 @@
   justify-content: center;
 
   transform: translate(0%, 160%);
-  animation: bottomTop var(--animation-speed) infinite ease-in-out;
+  animation: bottomTop 5.5s infinite ease-in-out;
   animation-delay: 3s;
 }
 
@@ -143,7 +140,7 @@
 
   opacity: 0;
 
-  animation: rightLeft var(--animation-speed) infinite ease-in-out;
+  animation: rightLeft 3.5s infinite ease-in-out;
   animation-delay: 5s;
 }
 

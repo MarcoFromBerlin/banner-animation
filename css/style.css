@@ -90,8 +90,8 @@
   justify-content: center;
 
   transform: translate(0%, 160%);
-  animation: bottomTop 5s infinite ease-in-out;
-  animation-delay: 3.5s;
+  animation: bottomTop 6s infinite ease-in-out;
+  animation-delay: 2.5s;
 }
 
 .box-2-int {
@@ -122,8 +122,8 @@
   justify-content: center;
 
   transform: translate(0%, 160%);
-  animation: bottomTop 5.5s infinite ease-in-out;
-  animation-delay: 3s;
+  animation: bottomTop 6.5s infinite ease-in-out;
+  animation-delay: 2s;
 }
 
 .box3 .btn {
@@ -140,8 +140,8 @@
 
   opacity: 0;
 
-  animation: rightLeft 3.5s infinite ease-in-out;
-  animation-delay: 5s;
+  animation: rightLeft 5s infinite ease-in-out;
+  animation-delay: 3.5s;
 }
 
 .box3 h6 {
